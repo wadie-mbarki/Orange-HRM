@@ -1,20 +1,8 @@
-# JenkinsDesjardins
+# Jenkins Orange-HRM
 
-## au cas de probleme 
-
- +1
- +2
- +3
-
-1.premier fichier readme
-2.j'apprend git
-
-formation **GIT**
-formation *GIT*
-
----
-'''html
-<html></html>
-'''
-[lien](http://google.fr)
+## 1er coomit : 11-07-2023 09:30
+ajout des trois premiers dossiers
+## 2emme commit : 11-07-2023 09:45
+ajout du reste du projet 
+)
 # Orange-HRM
