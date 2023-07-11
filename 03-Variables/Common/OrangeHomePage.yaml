@@ -1,0 +1,20 @@
+OrangeHomePage:
+      Search:
+          description: recherche (pas encoredetaillé)
+          xpath: //input[@placeholder='Search']
+      link_Admin:
+          description: link pour se deplacer vers la page "Admin"
+          xpath: //*[@id="app"]/div[1]/div[1]/aside/nav/div[2]/ul/li[1]/a/span
+      link_PIM:
+          description: link pour se deplacer vers la page "PIM"
+          xpath: //span[normalize-space()='PIM']
+      link_leave:
+          description: link pour se deplacer vers la page "leave"
+          xpath: //span[normalize-space()='Leave']
+      link_Time:
+          description: link pour se deplacer vers la page "Time"
+          xpath: //span[normalize-space()='Time']
+      link_PaulCollins:
+          description: link pour afficher la liste 
+          xpath: //p[@class='oxd-userdropdown-name']
+#### a completer a cours du projet

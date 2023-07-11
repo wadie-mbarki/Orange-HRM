@@ -1,0 +1,7 @@
+USerManagerListe:
+    Utilisateur1:
+        userRole: Admin
+        employeeName: Linda Jane Anderson
+        staus: Enabled
+        Username: wadie
+        password: 123456789Ab

@@ -1,0 +1,7 @@
+AccesUnifieOrange:
+    username:
+        xpath: //input[@placeholder='Username']
+    password:
+        xpath: //input[@placeholder='Password']
+    submit:
+        xpath: //button[normalize-space()='Login']

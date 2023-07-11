@@ -1,0 +1,51 @@
+USerManager:
+    SystemUsers:
+        Add_Champ:
+            btn_add:
+                descriptiom: bouton pour ajouter un nouveau utilisateur
+                xpath: //button[normalize-space()='Add']
+            list_user_role:
+                descriptiom: on doit choisir soit "Admin" soit "ESS"
+                xpath: //html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/i[1]
+            lbl_employee_name:
+                descriptiom: nom de l'employée
+                xpath: //input[@placeholder='Type for hints...']
+            list_status:
+                descriptiom: on doit choisir "enabled" ou "disabled"
+                xpath: //body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]
+            lbl_username:
+                descriptiom: inserer un username
+                xpath: //div[@class='oxd-form-row']//div[@class='oxd-grid-2 orangehrm-full-width-grid']//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//div//input[@class='oxd-input oxd-input--active']
+            lbl_password:
+                descriptiom: inserer un password
+                xpath: //div[@class='oxd-grid-item oxd-grid-item--gutters user-password-cell']//div[@class='oxd-input-group oxd-input-field-bottom-space']//div//input[@type='password']
+            lbl_confirm_password:
+                descriptiom: confirmer le password
+                xpath: //div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//div//input[@type='password']
+            btn_cancel:
+                descriptiom: bouton cancel
+                xpath: //button[normalize-space()='Cancel']
+            btn_save:
+                descriptiom: bouton pourconfirmer l'ajout
+                xpath: //button[normalize-space()='Save'] 
+        Add_titre_Champ:
+            txt_user_role:
+                descriptiom: User Role
+                xpath: //label[normalize-space()='User Role'] 
+            txt_employee_name:
+                descriptiom: Employee Name
+                xpath: //label[normalize-space()='Employee Name']
+            txt_status:
+                descriptiom: Status
+                xpath:  //label[normalize-space()='Status']
+            txt_username:
+                descriptiom: Username
+                xpath: //label[normalize-space()='Username'] 
+            txt_password:
+                descriptiom: Password
+                xpath: //label[normalize-space()='Password']   
+            txt_confirmpassword:
+                descriptiom: Confirm Password
+                xpath: //label[normalize-space()='Confirm Password']
+                
+    RecordsFound:
