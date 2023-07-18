@@ -1,6 +1,6 @@
 **** Settings ***
 Documentation    Ce script sert a implimenter OHJ-7
-
+                    tester github
 Library            SeleniumLibrary
 
 Resource            ../../02-Scripts/Common/CommonFunctions.robot
